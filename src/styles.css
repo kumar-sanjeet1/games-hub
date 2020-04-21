@@ -1,3 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  margin: 0;
+  padding: 10px;
+  background: #f1f1f1;
+  position: relative;
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+}
+.header__logo {
+  text-align: left;
+}
+.header__logo h5 {
+  display: inline-block;
+  margin: 10px 10px;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
